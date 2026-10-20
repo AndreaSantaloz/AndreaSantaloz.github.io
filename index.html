@@ -1,74 +1,173 @@
 <!DOCTYPE html>
-<html lang="en-es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Profile</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header></header>
-        <main>
-            <div>
-                <h1>Andrea Santana López</h1>
-                <h2>About me</h2>
-                <div>
-                    <p>Hi, my name is Andrea and I have an apassion with the data.The data are important in
-                our world because we can lost money or generate a scandal or lost a loved one.For this
-                reason, it is important to know that does with the data that you communicate with the
-                people in your social media and in the case the business how to take advantage to get
-                a lot of clients and satisfy your needs.
-                    </p>
-                </div>
-                <h2>Tecnologies</h2>
-                <div>
-                    <h3>Fronted</h3>
-                    <ul>
-                        <li>React</li>
-                        <li>Angular</li>
-                    </ul>
-                     <h3>Backend</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>Node</li>
-                    </ul>
-                    <h3>Full Stack</h3>
-                    <ul>
-                        <li>Django</li>
-                    </ul>
-                    <h3>Automatizacion</h3>
-                    <ul>
-                        <li>Subprocess</li>
-                        <li>utils</li>
-                        <li>os</li>
-                    </ul>
-                    <h3>Machine learning</h3>
-                    <ul>
-                        <li>Tensorflow</li>
-                        <li>pytorch</li>
-                    </ul>
-                    <h3>Layout</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                     <h3>Docker</h3>
-                  
-                </div>
-               <div>
-                 <h3>Projects</h3>
-                 <ul>
-                    <li>Plataforma web para simular modelos de machine-learning(link)</li>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+
+.hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://cdng.europosters.eu/pod_public/1300/122765.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.12;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -1px;
+    color: #0f4a9e;
+}
+
+.hero p {
+    color: #343a40;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+</style>
+<body>
+
+
+
+<div class="p-4 p-md-5 mb-4 rounded text-body-emphasis hero">
+    <div class="row align-items-center g-4">
+
+        <div class="col-md-2" style="border-radius:50%;">
+            <img src="foto.png"
+                 class="img-fluid"
+                 style="border-radius:50%;width:160px;height:160px">
+        </div>
+
+        
+        <div class="col-md-8">
+            <h1 class="display-4 fw-bold">Andrea Santana López</h1>
+
+            <p class="lead my-3">
+                Desarrollo aplicaciones web automatizadas con inteligencia artificial.
+                Además de realizar automatizaciones de procesos.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mt-4">
+                <ul style="list-style:none;">
+                    <li><b>Correo:</b> andreasantaloz@gmail.com</li>
+                     <li><b>Teléfono:</b> +34 638292537</li>
+
                 </ul>
-               </div>
-                <div>
-                 <h3>Experiences</h3>
-                 <p>IUCES(Instituto universitario cientifico,empresa y sociedad)[2 months] </p>
-               </div>
+               
+
+                
             </div>
+        </div>
+
+    </div>
+</div>
+    
+<div class="row g-5 ms-4">
+    <div class="col-md-8"  style="background-color: #f8f9fa;">
+        <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">Sobre mí</h2>
+            <p>Profesional detallista, puntual y resolutiva de problemas con gran interés en desarrollar mi carrera como ingeniera informática.<br>  
+               Destacó por mi capacidad para desarrollar scripts que automaticen las tareas, y en la gestión de redes y bases de datos.
+             
+           </p>
+            <hr>
+            <hr>
+            </article>
+        <h1 class="display-5  mb-4">Proyectos</h1>
+        <article class="blog-post">
+            <h4 class="mb-1">Trabajo de fin de grado</h4>
+            <p class="blog-post-meta">Febrero-Junio,2026 <a href="https://github.com/AndreaSantaloz/TFG.git">Trabajo de fin de grado</a></p>
+            <p>La aplicación procesa modelos científicos que simulan el comportamiento del óxido nítrico y genera de forma automatizada dashboards interactivos para facilitar el análisis de datos a los investigadores de neurociencia computacional.
+            </p>
+        </article>
+         <article class="blog-post">
+            <h4 class="mb-1">Animal_Haven</h4>
+            <p class="blog-post-meta">Febrero-Mayo,2026 <a href="https://github.com/AllenHyun/Animal_Haven.git">Animal_Haven</a></p>
+            <p>Animal Haven es una aplicación orientada a la adopción de mascotas que facilita el encuentro entre animales en busca de hogar y posibles adoptantes. Permite explorar fichas detalladas de cada animal, filtrar según distintas características y gestionar el proceso de contacto con el refugio. Su objetivo principal es agilizar las adopciones y promover la tenencia responsable de animales de forma sencilla e intuitiva.</p>
+        </article>
+         <article class="blog-post">
+            <h4 class="mb-1">Asesor de ropa inteligente</h4>
+            <p class="blog-post-meta">Enero, 2026 <a href="https://github.com/AndreaSantaloz/ForecastWear">ForecastWear</a></p>
+            <p>Aplicación web que utiliza inteligencia artificial para recomendar ropa según el clima. Este proyecto busca ayudar en la elección de manera sencilla para saber si la ropa es adecuada para salir de la casa.</p>
+        </article>
+         <article class="blog-post">
+            <h4 class="mb-1">Git_Flow_Automator</h4>
+            <p class="blog-post-meta">Marzo,2025 <a href="https://github.com/AndreaSantaloz/Git_Flow_Automator">Git_Flow_Automator</a></p>
+            <p>Este proyecto automatiza ejercicios relacionados con Git Bash, GitHub y scripts de Bash. Está diseñado para ayudar a los usuarios a practicar y reforzar su comprensión de los comandos de Git, la gestión de repositorios y el scripting de shell.</p>
+        </article>
        
-        </main>
-        <footer></footer>
-    </body>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+           
+            <div>
+                <h4 class="fst-italic">Experiencia</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <img  width="96" height="96" class="js0lkc js0lkb js0he2 js0hve js0lkf js0lkp" fetchpriority="low" alt="Logotipo de la escuela oficial de idiomas" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7G6dTue8vjiEsfaHQZfcRaMMsFgFEKP0cEGAGQQcZp5xcdovsB2L73KXl&s=10" data-loaded="true">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0">Desarrolladora web</h6> 
+                                <small class="text-body-secondary">Instituto Universitario de Cibernética, empresa y Sociedad (IUCES)<br></small> 
+                                <small>Duración 3 meses</small>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="fst-italic">Formación</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <img  width="96" height="96" class="js0lkc js0lkb js0he2 js0hve js0lkf js0lkp" fetchpriority="low" alt="Logotipo de la escuela oficial de idiomas" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4bF66x_8Yurkth0EC9V0dLRvyJwco3GahQdp6mDSZKw&s" data-loaded="true">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0">Inglés en la escuela oficial de idiomas</h6> <small class="text-body-secondary">Actualmente en curso</small> </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <img  width="96" height="96" class="js0lkc js0lkb js0he2 js0hve js0lkf js0lkp" fetchpriority="low" alt="Logotipo de la la ULPGC" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eajVE3PTURvK3qynzU6jYo2n3VaqCDTKKRT6KjTmJg&s=10" data-loaded="true">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0">Grado de Ingeniería Informática</h6> <small class="text-body-secondary">Septiembre, 2026</small> </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <img  width="96" height="96" class="js0lkc js0lkb js0he2 js0hve js0lkf js0lkp" fetchpriority="low" alt="Logotipo de Google España" src="https://media.licdn.com/dms/image/v2/D4E0BAQHqiynZpxXj1g/company-logo_100_100/B4EaBhNa7.GoAM-/0/1788337303543/googleespana_logo?e=1793836800&amp;v=beta&amp;t=tEDhWdSsSZuZjQRuYGxvOhcUnHouIMB8NR01WVkve8Q" data-loaded="true">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0">Curso de Desarrollo de Apps Móviles</h6> <small class="text-body-secondary">Diciembre, 2024</small> </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
 </html>
